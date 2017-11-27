@@ -6,6 +6,8 @@ body{
     overflow-x: hidden;
     font-family: 'Playfair Display', serif;
     letter-spacing: 2px;
+    line-height: 1.5;
+    font-size: 12pt;
 }
 
 .container{
