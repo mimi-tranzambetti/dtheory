@@ -20,9 +20,15 @@ body{
 h1{
   font-family: 'Playfair Display', serif;
   font-weight: 700;
+  font-size: 24pt;
 }
 
 h2{
   font-family: 'Playfair Display', serif;
   font-weight: 400;
+  font-size: 16pt;
+}
+
+p{
+  font-size: 12pt;
 }
