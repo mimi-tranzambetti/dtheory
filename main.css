@@ -1,12 +1,12 @@
 body{
     color: #444444;
-    background-color: #9B2C2C;
+    background-color: #5865d8;
     margin: 0;
     height: 100%;
     overflow-x: hidden;
-    font-family: 'Playfair Display', serif;
-    letter-spacing: 2px;
-    line-height: 1.5;
+    font-family: 'Muli', sans-serif;
+    letter-spacing: 0.5px;
+    line-height: 1.8;
     font-size: 12pt;
 }
 
@@ -18,17 +18,80 @@ body{
 }
 
 h1{
-  font-family: 'Playfair Display', serif;
+  font-family: 'Lora', serif;
   font-weight: 700;
   font-size: 24pt;
 }
 
 h2{
-  font-family: 'Playfair Display', serif;
+  font-family: 'Lora',serif;
+  font-weight: 400;
+  font-size: 13pt;
+  border-bottom: 6px solid #eeeeee;
+}
+
+h3{
+  font-family: 'Muli', sans-serif;
   font-weight: 400;
   font-size: 16pt;
 }
 
 p{
   font-size: 12pt;
+}
+
+a{
+    text-decoration: none;
+    color: slateblue;
+}
+
+a:hover{
+    color: cornflowerblue;
+}
+
+a:visited{
+    color: slateblue;
+}
+
+
+/*NAVIGATION*/
+
+nav {
+    position: fixed;
+    top: 0px;
+    padding: 15px 15px;
+    background: #fff;
+    width: 100%;
+    opacity: 1;
+    z-index: 101;
+    box-shadow: 0 0 6px #999;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+}
+
+.navlinks a {
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 10px 25px 0 0px;
+    color: #888;
+    opacity: 0.6;
+
+
+}
+
+.navlinks a:hover {
+    opacity: 1;
+    cursor: pointer;
+    padding-bottom: 0px;
+
+    border-bottom: none;
+}
+
+
+.navlinks {
+    float: right;
+    margin-right: 40px;
 }
