@@ -1,6 +1,6 @@
 body{
     color: #444444;
-    background-color: #5865d8;
+    background-color: #ede8e1;
     margin: 0;
     height: 100%;
     overflow-x: hidden;
@@ -13,8 +13,8 @@ body{
 .container{
     padding: 8%;
     margin: 4% 6%;
-    background-color: #fdfdfd;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
 h1{
