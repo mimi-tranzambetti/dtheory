@@ -96,6 +96,11 @@ nav {
     margin-right: 40px;
 }
 
+	.navlinks .current {
+		padding-bottom: 3px;
+		border-bottom: 1px solid #ccc;
+	}
+
 img {
     width: 100%;
 }
