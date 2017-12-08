@@ -95,3 +95,7 @@ nav {
     float: right;
     margin-right: 40px;
 }
+
+img {
+    width: 100%;
+}
